@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function NavList() {
   const goTop = () => {
     window.scrollTo({
@@ -12,63 +14,63 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="about">
+          <Link onClick={goTop} to="about">
             About
-          </a>
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="https://gymate-io.netlify.app/gallery/page-1">
+          <Link onClick={goTop} to="gallery/page-1">
             Gallery
-          </a>
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="https://gymate-io.netlify.app/schedule/monday">
+          <Link onClick={goTop} to="schedule/monday">
             Schedule
-          </a>
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="https://gymate-io.netlify.app/blog">
+          <Link onClick={goTop} to="blog">
             Blog
-          </a>
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="https://gymate-io.netlify.app/pricing">
+          <Link onClick={goTop} to="pricing">
             Pricing
-          </a>
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="https://gymate-io.netlify.app/classes">
+          <Link onClick={goTop} to="classes">
             Classes
-          </a>
+          </Link>
         </li>
         <li
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <a onClick={goTop} href="https://gymate-io.netlify.app/contact">
+          <Link onClick={goTop} to="contact">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </>
