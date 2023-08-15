@@ -28,7 +28,7 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <Link onClick={goTop} to="gallery/page-1">
+          <Link onClick={goTop} to="https://gymate-io.netlify.app/gallery/page-1">
             Gallery
           </Link>
         </li>
@@ -36,7 +36,7 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <Link onClick={goTop} to="schedule/monday">
+          <Link onClick={goTop} to="https://gymate-io.netlify.app/schedule/monday">
             Schedule
           </Link>
         </li>
@@ -44,7 +44,7 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <Link onClick={goTop} to="blog">
+          <Link onClick={goTop} to="https://gymate-io.netlify.app/blog">
             Blog
           </Link>
         </li>
@@ -52,7 +52,7 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <Link onClick={goTop} to="pricing">
+          <Link onClick={goTop} to="https://gymate-io.netlify.app/pricing">
             Pricing
           </Link>
         </li>
@@ -60,7 +60,7 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <Link onClick={goTop} to="classes">
+          <Link onClick={goTop} to="https://gymate-io.netlify.app/classes">
             Classes
           </Link>
         </li>
@@ -68,7 +68,7 @@ function NavList() {
           style={{ transition: "all 0.3s" }}
           className=" cursor-pointer hover:text-[#ff0336]"
         >
-          <Link onClick={goTop} to="contact">
+          <Link onClick={goTop} to="https://gymate-io.netlify.app/contact">
             Contact
           </Link>
         </li>
