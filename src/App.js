@@ -4,7 +4,7 @@ import Login from "./Pages/Login";
 import SignUp from "./Pages/SignUp";
 import Navbar from "./components/Nav/Navbar";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { AuthContextProvider } from "./context/AuthContext";
 import Classes from "./Pages/Classes";
 import Price from "./Pages/Price";
@@ -24,7 +24,7 @@ import About from "./Pages/About";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <AuthContextProvider>
         <Navbar />
         <Routes>
@@ -53,7 +53,7 @@ function App() {
           </Route>
         </Routes>
       </AuthContextProvider>
-    </BrowserRouter>
+    </>
   );
 }
 

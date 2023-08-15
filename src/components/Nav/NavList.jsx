@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 function NavList() {
   const goTop = () => {
     window.scrollTo({
-      top: 0,
-      behavior: "none",
+      top: 0
     });
   };
   return (
@@ -34,7 +33,7 @@ function NavList() {
         </li>
         <li
           style={{ transition: "all 0.3s" }}
-          className=" cursor-pointer hover:text-[#ff0336]"
+          className="cursor-pointer hover:text-[#ff0336]"
         >
           <Link onClick={goTop} to="schedule/monday">
             Schedule
